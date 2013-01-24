@@ -15,3 +15,4 @@ Script zum erstellen von iTunes Affiliate-Links mit TradeDoubler
 #### Links zu anderen Scipten
 - [Pythonista Forum](http://omz-software.com/pythonista/forums/)
 - [Viticci scripts](https://github.com/viticci/pythonista-scripts)
+- [macdrifter.com](http://www.macdrifter.com/2012/11/the-power-of-pythonista-12.html)
