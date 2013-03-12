@@ -1,3 +1,5 @@
+import sound
+sound.load_effect('Powerup_2')
 import clipboard
 import urllib2
 import json
@@ -14,4 +16,8 @@ def shorten_url(long_url):
      short_url = f['data']['url']
      return short_url
 
+kurz = shorten_url(kurzurl)
+
+clipboard.set(kurz)
 print shorten_url(kurzurl)
+sound.play_effect('Powerup_2')
