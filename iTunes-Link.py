@@ -14,6 +14,6 @@ origURL = clipboard.get()
 affID = "http://clkde.tradedoubler.com/click?p=23761&a=1998011&url="
 affID2 = "&partnerId=2003"
 
-affURL = affID + origURL + affID2
+affURL = affID + origURL.strip() + affID2
 
 clipboard.set(affURL)
