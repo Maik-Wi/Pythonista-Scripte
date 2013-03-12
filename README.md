@@ -15,6 +15,9 @@ Script zum erstellen von iTunes Affiliate-Links mit TradeDoubler
 ### DeliPy.py
 Mit diesem Script kann man Links aus der Zwischenablage an Delecious senden
 
+### translate.py
+Dieses Script übersetzt mit Hilfe von Google Translate jedes Wort ins Deutsche, auf Wunsch kann es auch ganze Sätze übersetzten.
+
 #### Links zu anderen Scipten
 - [Pythonista Forum](http://omz-software.com/pythonista/forums/)
 - [Viticci scripts](https://github.com/viticci/pythonista-scripts)
