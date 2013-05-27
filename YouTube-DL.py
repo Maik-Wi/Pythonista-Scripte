@@ -1,9 +1,18 @@
 print """
-****************************************
-*   Script gestartet, bitte warten     *
-****************************************"""
+     _______________                                                     
+    |,----------.  |\   
+    ||           |=| |        YouTube                                           
+    ||          || | |         Video
+    ||       . _o| | | __    Downloader
+    |`-----------' |/ /~/
+     ~~~~~~~~~~~~~~~ / /
+                     ~~                                                                                                                                                                                                                                                                                                           
+"""
+
 import urllib2, urlparse, sys, webbrowser
- 
+import platform
+
+
 itags = {'45': 'webm_720p',
          '44': 'webm_480p',
          '43': 'webm_360p',
@@ -16,8 +25,17 @@ itags = {'45': 'webm_720p',
          '18': 'mp4_360p',
          '17': 'phone_mp4_144p',
           '5': 'flv_240p'}
- 
-order_preference = ['18', '22', '34', '35']
+
+#Fragt ab, ob es sich um ein iPhone oder iPad handelt
+version = platform.machine()
+
+if version == 'iPad2,5':
+ order_preference = ['22', '18', '34', '35']
+else: 
+	order_preference = ['18', '22', '34', '35']
+
+
+
  
 def main():
     v_id = None
