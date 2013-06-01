@@ -24,6 +24,9 @@ Ebenfalls ein Fork von [Pudquick](https://gist.github.com/pudquick/4704121), das
 ### translate.py
 Dieses Script übersetzt mit Hilfe von Google Translate jedes Wort ins Deutsche, auf Wunsch kann es auch ganze Sätze übersetzten.
 
+### Runtastic2DayOne.py
+Ich möchte in Zukunft meine Lauferfolge in Day One speichern und habe mir dafür einen kleinen iOS-Workflow zusammen gebaut. Mehr dazu gibt's in meinem [Blog-Artikel](http://buntepixel.org/2013/06/01/running-logs-aus-runtastic-zu-day-one-posten-dank-pythonista/)
+
 #### Links zu anderen Scipten
 - [Pythonista Forum](http://omz-software.com/pythonista/forums/)
 - [Viticci scripts](https://github.com/viticci/pythonista-scripts)
