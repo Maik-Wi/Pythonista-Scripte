@@ -21,8 +21,10 @@ Das original Script stammt von [Pudquick](https://gist.github.com/pudquick/53947
 ### YouTube-DL.py ###
 Ebenfalls ein Fork von [Pudquick](https://gist.github.com/pudquick/4704121), das Script wurde von mir aber nicht großartig verändert.
 
-### translate.py
-Dieses Script übersetzt mit Hilfe von Google Translate jedes Wort ins Deutsche, auf Wunsch kann es auch ganze Sätze übersetzten.
+### Send2iPad.py
+Diese Script sendet mittels [Pushover](http://bpsl.de/13ffZs7
+) Nachrichten an andere iOS-Geräte.
+Das Script kann ein Argument als Nachricht entgegen nehmen oder gibt ein Eingabefeld aus, wenn kein Argument vorliegt. Mehr dazu in meinem [Blogpost](http://buntepixel.org/?p=4474).
 
 ### Runtastic2DayOne.py
 Ich möchte in Zukunft meine Lauferfolge in Day One speichern und habe mir dafür einen kleinen iOS-Workflow zusammen gebaut. Mehr dazu gibt's in meinem [Blog-Artikel](http://buntepixel.org/2013/06/01/running-logs-aus-runtastic-zu-day-one-posten-dank-pythonista/)
