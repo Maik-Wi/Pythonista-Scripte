@@ -1,6 +1,6 @@
 print '''
 ****************************************
-*            Send To Phone             *
+*              Send Push               *
 ****************************************'''
 print "lade httplib..."
 import httplib
